@@ -1,10 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const multichain = require('multichain-node')({
-    host: '192.168.10.6',
-    port: 7358,
-    user: 'multichainrpc',
-    pass: 'FwTzS6wFHUtJNcNTwUkSTNC5tkLkeWNToG4vMXvSoyJj',
+    host: 'XXXXXX',
+    port: XXX,
+    user: 'XXXXX',
+    pass: 'XXXXXXXX',
 });
 
 const app = express();
